@@ -1,0 +1,40 @@
+.u-avatar {
+  width: 180px;
+  height: 180px;
+  border: 1px solid #eee;
+  border-radius: 100px;
+  margin: 0 auto;
+}
+.u-title {
+  padding-top: 20px;
+}
+.u-title h3 {
+  font-size: 20px;
+}
+.u-tag {
+  height: 20px;
+  line-height: 20px;
+  padding: 0 6px;
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #eee;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.u-tag-2 {
+  height: 20px;
+  line-height: 20px;
+  padding: 0 6px;
+  color: #299982;
+}
+.u-btn {
+  width: 100%;
+  cursor: pointer;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #299982;
+  box-shadow: 0 5px 20px #BBB;
+}

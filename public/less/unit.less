@@ -1,0 +1,52 @@
+@bg-color: #fff;
+@bg-color1: #299982;
+@fc : #fff;
+@fc1: #299982; //浅绿
+@border-list:#ccc; 
+@bg-motto :#299982;
+@bg-tag:#eee; //标签色
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+.u-avatar{
+	width: 180px;
+	height: 180px;
+	border:1px solid #eee;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+.u-title{
+	padding-top: 20px;
+	h3{
+		font-size: 20px;
+	}
+}
+.u-tag{
+	height: 20px;
+	line-height: 20px;
+	padding:0 6px;
+	text-align: center;
+	background-color: #eee;
+	border:1px solid #eee;
+	.border-radius(5px);
+
+}
+.u-tag-2{
+	height:20px;
+	line-height:20px;
+	padding: 0 6px;
+	color:@fc1;
+}
+.u-btn{
+	width: 100%;
+	cursor: pointer;
+	height: 36px;
+	line-height: 36px;
+  	text-align: center;
+  	color: @fc;
+  	background-color: @bg-color1;
+  	box-shadow: 0 5px 20px #BBB;
+}
