@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>留言板</title>
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+</head>
+<body>
+	<header>
+		<% include header.ejs %>
+	</header>
+	<nav>
+		<% include nav.ejs %>
+	</nav>
+	<div class="g-bd f-cb">
+	    <div class="g-mn">
+	        <div class="g-mnc">
+	        	<div class="ds-thread" data-thread-key="0" data-title="留言板" data-url="messageBoard.html"></div>
+	        </div>
+	    </div>
+		<div class="g-sd">
+	        <div class="g-sdc">
+				<% include side.ejs %>
+	        </div>
+	    </div>
+	</div>
+	<footer>
+		<% include footer.ejs %>
+	</footer>
+	<!-- 多说评论框 start -->
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+		var duoshuoQuery = {short_name:"ihasi"};
+		(function() {
+			var ds = document.createElement('script');
+			ds.type = 'text/javascript';ds.async = true;
+			ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+			ds.charset = 'UTF-8';
+			(document.getElementsByTagName('head')[0] 
+			 || document.getElementsByTagName('body')[0]).appendChild(ds);
+		})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+
+</body>
+</html>
